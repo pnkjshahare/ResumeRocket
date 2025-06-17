@@ -4,7 +4,7 @@
 
 ---
 
-## 📦 Features
+## 📆 Features
 
 * 🔐 Secure credential management with `.env`
 * 📤 Sends emails in **bulk** via Gmail
@@ -25,7 +25,7 @@ ResumeRocket/
 ├── recipients.xlsx              # Excel file with 'email' column
 ├── PANKAJ_SHAHARE_RESUME.pdf    # Your resume to be attached
 ├── email_subject.txt            # Email subject (plain text)
-├── email_body.html              # Email body (HTML format)
+├── email_body.html              # Email body (HTML format, customized)
 ├── email_log.csv                # Auto-generated email sending log
 ├── .env                         # Environment variables (credentials)
 ├── requirements.txt             # Python dependencies
@@ -133,7 +133,7 @@ After execution, you'll get a CSV file `email_log.csv` with:
 
 ---
 
-## 🧠 Tips
+## 🧐 Tips
 
 * Always test with a small batch first.
 * Use a professional HTML email body.
@@ -170,3 +170,35 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## ⭐ Show your support
 
 Give a ⭐️ if this project helped you!
+
+---
+
+### 📄 Customized `email_body.html`
+
+The email body is customized to reflect your profile:
+
+```html
+<p>Hello,</p>
+
+<p>I am <strong>Pankaj Shahare</strong>, a final-year B.Tech student in Information Technology, passionate about full-stack development and AI-driven products. I'm looking for a full-time software developer opportunity where I can contribute meaningfully.</p>
+
+<p>I have worked on:</p>
+<ul>
+  <li><strong>LiveCodeHub</strong>: Real-time collaborative code editor (React, TypeScript, WebRTC)</li>
+  <li><strong>Concrete Strength Predictor</strong>: Regression model with 91.7% R² score using scikit-learn</li>
+  <li><strong>Emotion Detection</strong>: CNN-based model on FER2013 dataset</li>
+</ul>
+
+<p>
+My tech stack includes C++, Java, JavaScript, React, Node.js, MongoDB, WebRTC, and more. Please find my resume attached. I'd love to discuss any opportunities where I can contribute and grow.
+</p>
+
+<p>
+Regards,<br />Pankaj Shahare<br />
+<a href="mailto:your-email@gmail.com">your-email@gmail.com</a> |
+<a href="https://github.com/pankajshahare">GitHub</a> |
+<a href="https://linkedin.com/in/your-profile">LinkedIn</a>
+</p>
+```
+
+---
