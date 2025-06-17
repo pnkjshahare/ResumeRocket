@@ -72,7 +72,7 @@ Create a `.env` file in the root directory with the following:
 ```env
 SENDER_EMAIL=your_email@gmail.com
 SENDER_PASSWORD=your_app_password
-GMAIL_ACCOUNT_NAME=Your Name or Gmail ID
+GMAIL_ACCOUNT_NAME=Your Name (Which shows to receiver)
 ```
 
 > **Note:** You must use an **App Password** if **2FA** is enabled on your Gmail.
