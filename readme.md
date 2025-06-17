@@ -155,7 +155,7 @@ This tool is for educational/job-seeking purposes only. Spamming or misuse may v
 
 **Pankaj Shahare**
 
-🌐 [Portfolio](https://your-portfolio-link.com) • 📧 [Email](mailto:your-email@gmail.com) • 💼 [LinkedIn](https://linkedin.com/in/your-profile) • 🐙 [GitHub](https://github.com/your-username)
+🌐 [Portfolio](https://new-portfoilo-website.vercel.app/)  • 💼 [LinkedIn](https://www.linkedin.com/in/pankaj-shahare-140a89239/) •
 
 ---
 
