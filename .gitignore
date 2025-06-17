@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.env
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Email log
+email_log.csv
+
+# Resume file (optional: exclude if resume is sensitive)
+PANKAJ_SHAHARE_RESUME.pdf
+
+# Excel recipient list (optional)
+recipients.xlsx
