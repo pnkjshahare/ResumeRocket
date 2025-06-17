@@ -75,7 +75,11 @@ SENDER_PASSWORD=your_app_password
 GMAIL_ACCOUNT_NAME=Your Name or Gmail ID
 ```
 
-> **Note:** You must use an App Password if 2FA is enabled on your Gmail.
+> **Note:** You must use an **App Password** if **2FA** is enabled on your Gmail.
+
+🎥 **Need help setting up Gmail App Password (used as `EMAIL_HOST_PASSWORD` in the video and in project used as `SENDER_PASSWORD` )?**  
+[📺 Watch this step-by-step YouTube guide](https://www.youtube.com/watch?v=I9x0w8cjR_o)
+
 
 ### 5. ✍️ Customize Email
 
